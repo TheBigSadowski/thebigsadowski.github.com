@@ -4,6 +4,14 @@ title: Faster Small Requests in Node.js
 ---
 
 
+h1. Faster Small Requests in Node.js
+
+The other day I ran into a bit of an issue with a small node.js web server that would return a small response (in my case a transparent pixel for reporting activity in real-time) when it was accessed from a relatively high-latency location, say the other side of the country or across the Pacific Ocean. If you write your code in a nieve way, you can end up doubling the number of trips exchaanges that need to take place between the client and server, resulting in response times where transfer time looks the same as waiting time.
+
+![response timing write() and then end()](/img/2013-05-18-small-requests-in-nodejs/write-then-end.png)
+
+h2. The slow code
+
 We will start with a simple application that only returns the text "Hello World!"
 
 The server is pretty simple, it just writes "Hello World!" and then ends the request. It should work fine, but as we will see, over high-latency links this will likely take twice as long for the data to get to the user as opposed to just sending the response with the end() method.
