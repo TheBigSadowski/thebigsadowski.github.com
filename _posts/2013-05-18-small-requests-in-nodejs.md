@@ -4,13 +4,13 @@ title: Faster Small Requests in Node.js
 ---
 
 
-h1. Faster Small Requests in Node.js
+# Faster Small Requests in Node.js
 
-The other day I ran into a bit of an issue with a small node.js web server that would return a small response (in my case a transparent pixel for reporting activity in real-time) when it was accessed from a relatively high-latency location, say the other side of the country or across the Pacific Ocean. If you write your code in a nieve way, you can end up doubling the number of trips exchaanges that need to take place between the client and server, resulting in response times where transfer time looks the same as waiting time.
+The other day I ran into a bit of an issue with a small node.js web server that would return a small response (in my case a transparent pixel for reporting activity in real-time) when it was accessed from a relatively high-latency location, say the other side of the country or across the Pacific Ocean. If you write your code in a nieve way, you can end up doubling the number of trips exchanges that need to take place between the client and server, resulting in response times where transfer time looks the same as waiting time.
 
 ![response timing write() and then end()](/img/2013-05-18-small-requests-in-nodejs/write-then-end.png)
 
-h2. The slow code
+## The slow code
 
 We will start with a simple application that only returns the text "Hello World!"
 
@@ -51,17 +51,21 @@ When we run this version on a far away server, the response looks a lot better:
 
 We've managed to push the whole response back at once and now the client doesn't have to make another round trip to the server!
 
-h4. Another way to speed it up
+### Another way to speed it up
 
-We could also speed up the first code by telling node in the call to `writeHeader` what the content length is.
+We could also speed up the first code by telling node in the call to `writeHeader` what the content length is. This informs node.js that we know how long the request is and that the response should not be sent in chunks (the default behavior). 
 
     var http = require('http');
     http.createServer(function (req, res) { 
-        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8'});
-        res.end('<h1>Hello World!</h1>');
+        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
+        res.write('<h1>Hello World!</h1>');
+        res.end();
     }).listen(8888);
 
-h4. Why does it work that way?
+This also has the benefit of reducing the amount of data sent in the response by a few bytes because the chunk envelope is not there saving us 6 bytes in this case, not having the closing chunk saves us 5 bytes and "content-length: 21" is a shorter header than "transfer-encoding: chunked" saving us another 8 bytes, for a total savings of 19 bytes over the chunked response.
+
+
+### Why does it work this way?
 
 The node.js developers made a choice early on to not get in between your code and the internal workings of the internet like a lot of other we frameworks do. One of the choices they made was to not buffer output and immediately send it down to the client. Therefore, that first call to `write()` actually fires off a packet to the client and then the call to `end()` is buffered because the socket is busy. Only when the client returns saying the first packet was delivered will it finally end the response.
 
@@ -69,13 +73,13 @@ So, the moral of the story...  when sending tiny responses in node.js and speed 
 
 
 
-h4. What if we don't use chunked encoding:
+### What if we don't use chunked encoding:
 
 
-var http = require('http');
-http.createServer(function (req, res) { 
-    res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
-    res.write('<h1>Hello World!</h1>');
-    res.end();
-}).listen(8888);
+    var http = require('http');
+    http.createServer(function (req, res) { 
+        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
+        res.write('<h1>Hello World!</h1>');
+        res.end();
+    }).listen(8888);
 
