@@ -1,16 +1,28 @@
 ---
 ---
 <!DOCTYPE html>
+<html>
+
+<head>
 <title>The Big Sadowski</title>
+<style>
+body { font-family: Helvetica, Arial, sans-serif; background: #333; color: #ddd; }
+a, a:link, a:visited { color: #ddd; text-decoration: underline; }
+a:hover { color: #fff; text-decoration: none; }
+ul { padding: 0; }
+li { list-style: none; margin: 15px 0; }
+#places { margin-top: 30px; }
+</style>
+</head>
 
-
-<h1>The Big Sadowski</h1>
-
-<ul id="products">
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a>
-  {% endfor %}
+<body>
+<h1>Joe Sadowski</h1>
+<p>Software Architect and Lean Development Expert</p>
+<p>I build things that last</p>
+<ul id="places">
+	<li><a href="https://twitter.com/joeski">twitter</a>
+	<li><a href="https://github.com/TheBigSadowski">github</a>
 </ul>
+</body>
 
-
-{% include footer.html %}
+</html>
