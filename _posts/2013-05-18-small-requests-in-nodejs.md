@@ -16,12 +16,14 @@ We will start with a simple application that only returns the text "Hello World!
 
 The server is pretty simple, it just writes "Hello World!" and then ends the request. It should work fine, but as we will see, over high-latency links this will likely take twice as long for the data to get to the user as opposed to just sending the response with the end() method.
 
-    var http = require('http');
-    http.createServer(function (req, res) { 
-        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8'});
-        res.write('<h1>Hello World!</h1>');
-        res.end();
-    }).listen(8888);
+{% highlight javascript %}
+var http = require('http');
+http.createServer(function (req, res) { 
+    res.writeHead(200, {'content-type': 'text/html; charset=UTF-8'});
+    res.write('<h1>Hello World!</h1>');
+    res.end();
+}).listen(8888);
+{% endhighlight %}
 
 To test all this, I set up a vm (Ubuntu 13.04) in Singapore and ran the code above. When hitting this service from San Francisco, I get about 200ms of transfer time to get the first byte and headers and then another 200ms or so to get the actual "Hello World!" content and then end of the response. For this test, I'm just running it in the browser (Chrome) and established the connection previously so we would just be measuring the time to make the request. Here are the results:
 
@@ -39,11 +41,13 @@ Now, if we replace the separate calls to `res.write("<h1>Hello World!</h1>")` an
 
 Here's the code:
 
-    var http = require('http');
-    http.createServer(function (req, res) { 
-        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8'});
-        res.end('<h1>Hello World!</h1>');
-    }).listen(8888);
+{% highlight javascript %}
+var http = require('http');
+http.createServer(function (req, res) { 
+    res.writeHead(200, {'content-type': 'text/html; charset=UTF-8'});
+    res.end('<h1>Hello World!</h1>');
+}).listen(8888);
+{% endhighlight %}
 
 When we run this version on a far away server, the response looks a lot better:
 
@@ -55,12 +59,14 @@ We've managed to push the whole response back at once and now the client doesn't
 
 We could also speed up the first code by telling node in the call to `writeHeader` what the content length is. This informs node.js that we know how long the request is and that the response should not be sent in chunks (the default behavior). 
 
-    var http = require('http');
-    http.createServer(function (req, res) { 
-        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
-        res.write('<h1>Hello World!</h1>');
-        res.end();
-    }).listen(8888);
+{% highlight javascript %}
+var http = require('http');
+http.createServer(function (req, res) { 
+    res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
+    res.write('<h1>Hello World!</h1>');
+    res.end();
+}).listen(8888);
+{% endhighlight %}
 
 This also has the benefit of reducing the amount of data sent in the response by a few bytes because the chunk envelope is not there saving us 6 bytes in this case, not having the closing chunk saves us 5 bytes and "content-length: 21" is a shorter header than "transfer-encoding: chunked" saving us another 8 bytes, for a total savings of 19 bytes over the chunked response.
 
@@ -76,10 +82,11 @@ So, the moral of the story...  when sending tiny responses in node.js and speed 
 ### What if we don't use chunked encoding:
 
 
-    var http = require('http');
-    http.createServer(function (req, res) { 
-        res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
-        res.write('<h1>Hello World!</h1>');
-        res.end();
-    }).listen(8888);
-
+{% highlight javascript %}
+var http = require('http');
+http.createServer(function (req, res) { 
+    res.writeHead(200, {'content-type': 'text/html; charset=UTF-8', 'content-length': 21});
+    res.write('<h1>Hello World!</h1>');
+    res.end();
+}).listen(8888);
+{% endhighlight %}
