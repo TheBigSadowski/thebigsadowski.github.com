@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Faster Small Requests in Node.js
+summary: A comparison of a few different ways to structure small HTTP responses in node.js and how each way impacts transfer speed
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reusing Code Leads to.. Reusable Code
+summary: Thoughts on using unit testing to ensure code is reuseable
 ---
 
 # Reusing Code Leads to.. Reusable Code
