@@ -3,7 +3,6 @@ layout: post
 title: Reusing Code Leads to.. Reusable Code
 ---
 
-
 # Reusing Code Leads to.. Reusable Code
 
 I know this sounds like something that came from the department of redundancy department, but every day I see myself and other developers I work with writing code that is too closely dependent on some framework or component and I often have trouble reusing large portions of our code because of this. There is nothing more frustrating than having all the functionality you need to accomplish something right in front of you, but not being able to use it because it is so tightly integrated into ASP.Net WebForms or some other technology that it would take longer to break the dependencies than it would to write it from scratch.

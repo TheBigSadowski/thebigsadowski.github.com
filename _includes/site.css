@@ -1,17 +1,17 @@
 /* colors: DB4105, CCCC9F, 33332D, FFF8E3, 9FB4CC */
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro);
-html { border-top: solid 5px #DB4105; }
-body { font-family: 'Maven Pro', Helvetica, Arial, sans-serif; font-size: 1.5em; background: #CCCC9F; color: #33332D; border-top: solid 5px #FFF8E3; margin: 0; padding: 5px 20px; }
+html { border-top: solid 5px #279CCF; }
+body { font-family: 'Maven Pro', Helvetica, Arial, sans-serif; font-size: 1.5em; background: #eee; color: #333; border-top: solid 5px #fff; margin: 0; padding: 5px 20px; }
 h1 { font-size: 4em; margin: 0; }
-a, a:link, a:visited, h1 a:hover { color: #33332D; }
-a:hover { color: #FFF8E3; }
+a, a:link, a:visited, h1 a:hover { color: #333; }
+a:hover { color: #279CCF; }
 h1 a { text-decoration: none; }
 li { margin: 15px 0; }
 #places { margin-top: 30px; padding: 0; }
 #places li { list-style: none; }
 
-.highlight { border: solid 1px #33332D; background: #FFF8E3; border-radius: 15px; }
+.highlight { border: solid 1px #333; background: #fff; border-radius: 15px; }
 .highlight pre { margin: 15px 20px; }
 
-.post { min-width: 500px; max-width: 1000px; margin: 0 auto; font-size: .8em; line-height: 130%; }
+.post { min-width: 500px; max-width: 1000px; margin: 0 auto; font-size: .8em; line-height: 130%; margin-top: 30px; }
 .post h1 { font-size: 2em; }
