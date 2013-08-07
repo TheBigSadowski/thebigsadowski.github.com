@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="/style/all.css">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/ogeajoaldiccojfbmeajcbjcedpjodgj">
 <style type="text/css">
 .wrap { max-width: 800px; margin: 0 auto; }
 .wrap p { font-size: 70%; line-height: 1.5em; }
@@ -18,28 +19,48 @@
 p, h3, h2 { margin-left: 10px; margin-right: 10px; }
 h2, h3 { color: #279CCF; }
 h3 { font-size: 60%; color: #000; text-transform: uppercase; }
+pre { font-size: 70%; color: #666; margin: 15px; }
 </style>
 </head>
 
 <body>
 
+<!--
+NOTES:
+
+http://allthingsd.com/20130628/strava-now-allows-users-to-post-live-during-runs-and-rides/
+What’s next for Strava? Horvath mentioned a platform for coaching, gear recommendations, event and race discovery, and eventually content — maybe even coffee-table books — about where to ride and run. But what the company won’t do is expand to non-endurance activities like snow- and water sports.
+
+
+http://raceshape.com/
+
+http://app.strava.com/careers/sse
+
+http://engineering.strava.com/
+
+
+
+-->
+
+
+
 <div class="wrap">
 
 <header>
 <h1>Hi, I'm Joe.</h1>
-<p>I'd love to work with all of you over at Strava. We should talk!</p>
+<p>I'd love to work with all of you over at Strava. I build a <a href="#plugin">little plugin</a>. We should talk!</p>
 </header>
 
 <section class="me">
 <h2>About me</h2>
 
-<p>In the past I've worked as a developer, architect, founder, tech lead and manager (sometimes all at the same time). I've worked at large companies like Adobe and Rakuten and have also been essential to the growth of small companies including CityVoter that I founded with 3 others.</p>
+<p>In the past I've worked as a developer, architect, founder, tech lead and manager (sometimes all at the same time). I've worked at large companies like Adobe and Rakuten and have also been essential to the growth of small startups including CityVoter that I founded with 3 co-founders.</p>
 
 <p>These days, my passion lies in building super solid applications and services that scale massively. Here's a bit about who I am...</p>
 
 
 <h3>I'm a nerd</h3>
-<p>I'm a <em>huge</em> nerd. My wife teases me for reading books like Leading Lean Software Development, Domain Driven Design, or Implementation Patterns at night before bed and it really confuses her when I read something like Adrenaline Junkies and Template Zombies on a vacation for fun.</p>
+<p>I'm a <em>huge</em> nerd. My wife teases me for reading books like Leading Lean Software Development, Domain Driven Design, or Implementation Patterns at night before bed and it really confuses her when I read something like Pro Git on a vacation for fun.</p>
 
 
 <h3>I'm passionate about continuous improvement</h3>
@@ -49,7 +70,7 @@ h3 { font-size: 60%; color: #000; text-transform: uppercase; }
 
 
 <h3>Strava's made a difference in my life</h3>
-<p>One of the things I've missed most since moving to SF from Boston a few years ago is the group of friends that I used to ride with. Since joining Strava and connecting with them on your service, I've been able to rekindle that camaraderie through commenting on each others rides and kudos that we had even though we're thousands of miles apart. This has had the effect of getting me (and likely my friends) on their bikes more and making our lives healthier and richer.</p>
+<p>One of the things I've missed most since moving to SF from Boston a few years ago is the group of friends that I used to ride with. Since joining Strava and connecting with them on your service, I've been able to rekindle that camaraderie through commenting on each others rides and kudos that we had even though we're thousands of miles apart. This has had the effect of getting me and my friends on our bikes more and making our lives healthier and richer.</p>
 
 </section>
 
@@ -57,24 +78,23 @@ h3 { font-size: 60%; color: #000; text-transform: uppercase; }
 <section class="you">
 <h2>About you</h2>
 
-<p>You've created a product that resonates with athletes. People that use your apps ride millions of miles every day and are learning more about themselves as they use them. You're bringing a data intensive look at exercise and giving people reasons to get out and ride/run/wherever.</p>
+<p>You've created a product that resonates with athletes and in doing that, created what is probably the largest online community of cyclists. Every day, your users log millions of miles. And every day, your community and app are encouraging people to get out there and ride or run, but that's not enough for you. You want to provide more data, more recommendations and become even more essential as a tool to improve. You want to become even more indispensable to athletes and more useful to the casual user.</p>
+
 
 <h3>You're on a roll</h3>
-<p>You've created a product that resonates with athletes. The people that are using your apps cover millions of miles every day and are learning more about themselves as they use the app.</p>
+<p>MTBR calls Strava "THE killer app for cyclists". People are doing creative things with your app.</p>
 
 
 <h3>You have big goals</h3>
-<p>You want to be the #1 training tool for athletes and the authority for records. You have a solid install base of cyclists now, but you want to expand to other sports.</p>
+<p>You want to be the #1 training tool for athletes and the authority for records. You have a solid install base of cyclists now, but you want to expand to other sports. To hit these goals, you're going to need to be flexible, adaptive and will need people that can change direction quickly with you.<p>
 
 
-To hit these goals, you're going to need to be flexible, adaptive and be able to 
-<p>Your mission isn't going to be easy. There is a lot of work ahead for you. You need someone that will be flexible enough to solve the problems you face as you grow. Someone that is equally comfortable tuning your database, offloading some work to redis or tweaking your 
+<h3>You're not content just providing individuals with training data</h3>
+<p>You're thinking bigger and some of the <a href="http://app.strava.com/saturday-heatmap">things</a> Paul has done are evidence of that. You need someone that's not just going to build things to spec, but someone that's going to embrace, love and evolve the product with you.</p>
 
-	
-	refocus and work on any layer of the system when it's called for and someone that can help continue make your system better with every release.</p>
 
 <h3>You're moving fast and want to move even faster</h3>
-<p>In a bit of snooping, I found this in your page source while writing this...</p>
+<p>I found this in your page source while writing this...</p>
 <pre>
 &lt;!--
 deploy: strava-deploy/20130805-2
@@ -82,45 +102,51 @@ instance: i-7fb9691d
 env: ec2
 --&gt;
 </pre>
-<p>If I had to guess, I would say that means that you released yesterday and that the version running is the second release for that day.<p>
+<p>If I had to guess, I would say that means you released yesterday and that the version running is the second release for that day.<p>
 
-<p>The bottom line is, you are changing neighborhoods for the better and making a big impact in peoples lives. These are all things that I want to accomplish in my life and I feel positive we can do it together.</p>
+<p>The bottom line is, you are building an amazing product and a passionate community. You need people to help make it even better and I would love to help you.</p>
 
 </section>
 
 
-<section class="past">
+<section class="past" id="plugin">
+<h2>Chrome Plugin for Strava</h2>
+<p>To show how serious I am (and because I wanted some easier ways to discover new routes) I created a small plugin for chrome that adds things like nearby segments to your segment pages. You can install it from the Chorome Web Store or clone the source from GitHub and follow the directions in the readme to install it.</p>
+
+<p><button onclick="chrome.webstore.install()" id="install-button">Add "Strava Hacks" to Chrome</button></p>
+<script>
+if (chrome.app.isInstalled) {
+  document.getElementById('install-button').style.display = 'none';
+}
+</script>
+</section>
+
+<section class="past" style="display: none;">
 <h2>Ideas to make Strava better</h2>
 
 <p>These aren't really in any specific order, but here are a few things I would love to help out on...</p>
 
-<p>Some of them I've started to build into a power tools plugin for chrome that adds some new features and navigation to the Strava web app. The code's up on GitHub, so check it out and let me know what you think.<p>
+<p>Some of them I've started to build into a power tools plugin for chrome that adds some new features and navigation to the Strava web app. The code and install directions are up on <a href="https://github.com/TheBigSadowski/strava-nearby-segments-chrome">GitHub</a>, so check it out and let me know what you think!<p>
 
 <h3>SEO</h3>
 <p>When searching for something like <a href="">paradise loop sf</a> I don't see Strava's paradise loop page on the top 10. I think this could be due to </p>
 	
 	
-<h3>Nearby segments and improved segment search</h3>
-<p>I actually put my ideas on this into a chrome plugin. It adds a small section to the right side navigation on segment pages that lets you jump to other segments that are nearby. It also changes how the "Explore" link works, to take you to a segment explore page that is </p>
+<h3>Segment and route discovery</h3>
+<p>I put some of my ideas around this into the <a href="https://github.com/TheBigSadowski/strava-nearby-segments-chrome">chrome plugin</a> I talk about above. It adds a small section to the right side navigation on segment pages that lets you jump to other segments that are nearby. It also changes how the "Explore" tab works, to take you to a segment explore page that is focused on the area around the segment you were looking at.</p>
 
-<p>Ideally, this could also be something more like "people that rode this segment also rode these segments"</p>
+<p>Ideally, this could also be something more like "people that rode this segment also rode these segments" or with stared segments, we could find people with similar tastes and use that information to suggest new routes for people.</p>
 
 
 <h3>Percentile data</h3>
-<p>Since I'm not the world's fastest (yet!), it would be interesting to see what percentile I am in as compared to other riders. This comparison could be on a segment by segment level, but it would also be quite cool to see it across the board as compared to other people that have ridden segments in the same area. It could pretty much just be a note next to each segment that you ride, telling you what percentile you are in. For example, If I had the 1208th fastest time out of 6023 riders on a segment, I would be in the 79% percentile.</p>
+<p>Since I'm not the world's fastest (yet!), it would be interesting to see what percentile I am in as compared to other riders and be able to trend this over time. This comparison could be on a segment by segment level. It could just be a note next to each segment that you ride, telling you what percentile you are in. For example, If I had the 1208th fastest time out of 6023 riders on a segment, I would be in the 79% percentile.</p>
 
 <p>You could take this even further and give each rider an overall percentile based on all the segments they have ridden. This could really encourage people to get out there and strive for personal improvement.</p>
 
 
-<h3>Reopen the API<h3>
-<p>I know your community is asking for this. I just think it would be awesome to work on. I'd love to see 
+<h3>Reopen the API</h3>
+<p>I know your community is asking for this. I just think it would be awesome to work on. I'd love to see what people can do with the tools and data you could provide.</p>
 
-
-<h3>Add an <a href="https://ifttt.com/">IFTTT</a> source</h3>
-<p>
-
-<h3>UP, FitBit, etc. integration</h3>
-<p>I think 
 
 </section>
 
@@ -142,7 +168,7 @@ env: ec2
 <h3>I've built two extremely high performing agile development groups</h3>
 <p>At both CityVoter and Rakuten, I've led and mentored teams in how to design a system and process to be fully confident in being able to deploy many times per day. At Rakuten, we were able to deliver new API level features to the team in Tokyo that was building the Japanese language version of the user interface and integrate their code back in every day. We used a kanban board to keep track of what stage the development of each feature was in and to be able to focus attention when things became stuck. All of this led to much faster delivery of features.</p>
 
-<p>And at CityVoter, the team I built form the ground up still carries my personal best for number of successful no-outage releases to production in a single day... 26 times. I would love to beat that record at Strava!</p>
+<p>And at CityVoter, we were able to build our code and develop our process in a way that would allow us to release many times a day without any downtime. This team still carries my personal best for number of successful no-outage releases to production in a single day... 26 times. I would love to beat that record at Strava!</p>
 
 
 
