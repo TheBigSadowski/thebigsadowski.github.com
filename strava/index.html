@@ -25,30 +25,11 @@ pre { font-size: 70%; color: #666; margin: 15px; }
 
 <body>
 
-<!--
-NOTES:
-
-http://allthingsd.com/20130628/strava-now-allows-users-to-post-live-during-runs-and-rides/
-What’s next for Strava? Horvath mentioned a platform for coaching, gear recommendations, event and race discovery, and eventually content — maybe even coffee-table books — about where to ride and run. But what the company won’t do is expand to non-endurance activities like snow- and water sports.
-
-
-http://raceshape.com/
-
-http://app.strava.com/careers/sse
-
-http://engineering.strava.com/
-
-
-
--->
-
-
-
 <div class="wrap">
 
 <header>
 <h1>Hi, I'm Joe.</h1>
-<p>I'd love to work with all of you over at Strava. I build a <a href="#plugin">little plugin</a>. We should talk!</p>
+<p>I'd love to work with all of you over at Strava. We should talk!</p>
 </header>
 
 <section class="me">
@@ -111,9 +92,9 @@ env: ec2
 
 <section class="past" id="plugin">
 <h2>Chrome Plugin for Strava</h2>
-<p>To show how serious I am (and because I wanted some easier ways to discover new routes) I created a small plugin for chrome that adds things like nearby segments to your segment pages. You can install it from the Chorome Web Store or clone the source from GitHub and follow the directions in the readme to install it.</p>
+<p>To show how serious I am (and because I wanted some easier ways to discover new routes) I created a small plugin for chrome that adds things like nearby segments to your segment pages. You can install it from the <a href="https://chrome.google.com/webstore/detail/strava-hacks/ogeajoaldiccojfbmeajcbjcedpjodgj">Chorome Web Store</a> or clone the source from <a href="https://github.com/TheBigSadowski/strava-hacks">GitHub</a> and follow the directions (it's pretty easy) in the readme to install it in developer mode.</p>
 
-<p><button onclick="chrome.webstore.install()" id="install-button">Add "Strava Hacks" to Chrome</button></p>
+<p><button onclick="chrome.webstore.install()" id="install-button">Add "Strava Hacks" to Chrome</button> or <a href="https://github.com/TheBigSadowski/strava-hacks">grab the code from GitHub</a></p>
 <script>
 if (chrome.app.isInstalled) {
   document.getElementById('install-button').style.display = 'none';
@@ -181,6 +162,16 @@ if (chrome.app.isInstalled) {
 
 </div>
 
+<!--
+NOTES:
+
+http://allthingsd.com/20130628/strava-now-allows-users-to-post-live-during-runs-and-rides/
+What’s next for Strava? Horvath mentioned a platform for coaching, gear recommendations, event and race discovery, and eventually content — maybe even coffee-table books — about where to ride and run. But what the company won’t do is expand to non-endurance activities like snow- and water sports.
+
+http://raceshape.com/
+http://app.strava.com/careers/sse
+http://engineering.strava.com/
+-->
 
 {% include analytics.html %}
 </body>
