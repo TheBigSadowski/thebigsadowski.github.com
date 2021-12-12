@@ -2,7 +2,7 @@
 layout: plain
 ---
 
-# Sushi Rice (with Rice Coker)
+# Sushi Rice (with Rice Cooker)
 
 This will make a very sweet egg omelet for making tamago sushi. You should have a tamago pan and 
 
