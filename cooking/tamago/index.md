@@ -3,8 +3,7 @@ layout: plain
 ---
 
 # Tamago
-
-This will make a very sweet egg omelet for making tamago sushi. You should have a tamago pan and 
+This will make a very sweet egg omelet for tamago sushi.
 
 ## Special Tools
 * Tamagoyaki pan

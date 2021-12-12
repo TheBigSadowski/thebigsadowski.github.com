@@ -3,8 +3,8 @@ layout: plain
 ---
 
 # Sushi Rice (with Rice Cooker)
+Great tasting rice for all sorts of sushi.
 
-This will make a very sweet egg omelet for making tamago sushi. You should have a tamago pan and 
 
 ## Special Tools
 * Rice Cooker
