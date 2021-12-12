@@ -16,7 +16,7 @@ Great tasting rice for all sorts of sushi.
 * 1/2 tsp salt
 
 
-# Ingredients (rice)
+## Ingredients (rice)
 If your rice cooker has a mode for sushi rice, use it and follow the direction for that. It should be a higher ratio of rice to water than regular white rice. If your rice cooker doesn't have settings for sushi rice, here's are substitute measurements for cooking the rice:
 
 * 1 cup rice

@@ -5,8 +5,10 @@ layout: plain
 # Tamago
 This will make a very sweet egg omelet for tamago sushi.
 
+
 ## Special Tools
 * Tamagoyaki pan
+
 
 ## Ingredients
 * 2 Tbsp water
@@ -17,8 +19,8 @@ This will make a very sweet egg omelet for tamago sushi.
 * 4 eggs
 * oil for the pan
 
-## Steps
 
+## Steps
 1. Mix all ingredients together (except oil)
 1. Heat pan and add the oil
 1. Add a small layer of the egg mixture. Once it's cooked on the bottom, but still runny on the top, fold it over a few times.
