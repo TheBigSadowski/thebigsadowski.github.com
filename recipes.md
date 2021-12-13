@@ -8,5 +8,5 @@ Tips, tricks, tools, and recipes that I've been keeping track of to catalogue an
 # Recipes
 {% for recipe in site.recipes %}
 <h2><a href="{{ recipe.url }}">{{ recipe.title }}</a></h2>
-<p>{{ recipe.recipes }}</p>
+<p>{{ recipe.description }}</p>
 {% endfor %}
