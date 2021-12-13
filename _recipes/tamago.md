@@ -1,10 +1,7 @@
 ---
-layout: plain
+title: Tamago
+description: A very sweet Japanese omelet for tamago sushi
 ---
-
-# Tamago
-This will make a very sweet egg omelet for tamago sushi.
-
 
 ## Special Tools
 * Tamagoyaki pan

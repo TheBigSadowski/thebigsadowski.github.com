@@ -1,10 +1,7 @@
 ---
-layout: plain
+title: Sushi Rice
+description: Great tasting rice for sushi
 ---
-
-# Sushi Rice (with Rice Cooker)
-Great tasting rice for all sorts of sushi.
-
 
 ## Special Tools
 * Rice Cooker

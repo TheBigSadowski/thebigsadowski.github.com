@@ -1,0 +1,12 @@
+collections:
+  recipes:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
+      permalink: /recipes/:title
