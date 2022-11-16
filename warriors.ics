@@ -1,0 +1,1611 @@
+BEGIN:VCALENDAR
+NAME:Golden State Warriors - Warriors
+X-WR-CALNAME:Golden State Warriors - Warriors
+X-WR-TIMEZONE:America/Los_Angeles
+VERSION:2.0
+PRODID:-//Stanza //Stanza Calendar v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20200821T003000Z
+DTEND:20200821T013000Z
+UID:tU9-WQCuvBT-qdct2j1ggvts@stanza.co
+SUMMARY:NBA Draft Lottery
+DESCRIPTION:The Warriors are one of 14 teams participating in the NBA Draft Lottery this year and in contention for the top 5 picks of the 2020 NBA Draft.\n\nWe like our odds for a top lottery pick!\n\nStephen Curry will be representing the Dubs at the 2020 NBA Draft Lottery.\n\nWe’ve got our very own good luck charm, Larry!\n\n\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:ESPN
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:NBA Draft Lottery
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20201119T000000Z
+DTEND:20201119T030000Z
+UID:6UOcsVe23hjCcJYw7UnLoXxz@stanza.co
+SUMMARY:2020 NBA Draft
+DESCRIPTION:2020 NBA Draft\n\n\n\n2020 Draft, Presented by Chase https://stza.co/+LtNa-1r?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:ESPN and warriors.com
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT90M
+ACTION:DISPLAY
+DESCRIPTION:2020 NBA Draft
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220930T100000Z
+DTEND:20220930T130000Z
+UID:_qUmNgdOJMkzkaBxSIDBjk_g@stanza.co
+SUMMARY:Warriors at Wizards (Preseason)
+DESCRIPTION:📺 Watch on NBA TV, NBCS-DC\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeN5-L?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeN5-U?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeN5-T?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Saitama Super Arena\, Tokyo
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Wizards (Preseason)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221002T050000Z
+DTEND:20221002T080000Z
+UID:gc-gD8BFsyxNkWFEpAIdPy5M@stanza.co
+SUMMARY:Warriors vs. Wizards (Preseason)
+DESCRIPTION:📺 Watch on NBA TV\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNa-f?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNa-1q?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNa-3u?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Saitama Super Arena\, Tokyo
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Wizards (Preseason)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221010T003000Z
+DTEND:20221010T033000Z
+UID:qX3mygTPCIf3-e_VZb-jKlol@stanza.co
+SUMMARY:Warriors vs. Lakers (Preseason)
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, SportsNet LA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNg-28?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNg-3w?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNg-d?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Lakers (Preseason)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221012T020000Z
+DTEND:20221012T050000Z
+UID:JTirhwj_DP_6zD_i6MpPlV7t@stanza.co
+SUMMARY:Warriors vs. Trail Blazers (Preseason)
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, ROOT Sports NW\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNl-D?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNl-1r?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNl-2N?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Trail Blazers (Preseason)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221015T020000Z
+DTEND:20221015T050000Z
+UID:JH6Oz31SuypAsrcaKx80yWiv@stanza.co
+SUMMARY:Warriors vs. Nuggets (Preseason)
+DESCRIPTION:📺 Watch on ESPN2, NBCS-BA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNu-2u?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNu-1g?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNu-2A?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Nuggets (Preseason)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221019T020000Z
+DTEND:20221019T050000Z
+UID:rOjqpFkPwW0cqUpGSlFrrWPg@stanza.co
+SUMMARY:Warriors vs. Lakers
+DESCRIPTION:Warriors vs. Lakers\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNz-2V?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNz-3L?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNz-1a?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Lakers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221022T020000Z
+DTEND:20221022T050000Z
+UID:dmQTL5zKtiz_X_jbDomdY_DW@stanza.co
+SUMMARY:Warriors vs. Nuggets
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, ALT\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNI-q?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNI-29?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNI-3r?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Nuggets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221024T003000Z
+DTEND:20221024T033000Z
+UID:GW5vMEr29jUh478lCsEmp0QY@stanza.co
+SUMMARY:Warriors vs. Kings
+DESCRIPTION:📺 Watch on NBCS-BA, NBCS-CA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNP-1P?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNP-F?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNP-1G?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Kings
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221026T020000Z
+DTEND:20221026T050000Z
+UID:72QfMrGjC8IuNTVt39Vm7Eir@stanza.co
+SUMMARY:Warriors at Suns
+DESCRIPTION:Warriors at Suns\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeNV-1k?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeNV-3d?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeNV-3S?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Footprint Center\, Phoenix
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Suns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221028T020000Z
+DTEND:20221028T050000Z
+UID:jasnFjMiKqcwuCUtbmtXKDwp@stanza.co
+SUMMARY:Warriors vs. Heat
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, BSSUN\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeN$-2i?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeN$-1v?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeN$-1w?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Heat
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221029T230000Z
+DTEND:20221030T020000Z
+UID:pYsDSHOVIcuY75TtpK7ob-59@stanza.co
+SUMMARY:Warriors at Hornets
+DESCRIPTION:📺 Watch on NBCS-BA, BSSE\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeO2-1G?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeO2-Q?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeO2-$?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Spectrum Center\, 333 E Trade St\, Charlotte\, NC 28202
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Hornets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221030T220000Z
+DTEND:20221031T010000Z
+UID:TLifrgeVgioXWzIhc68DvR5P@stanza.co
+SUMMARY:Warriors at Pistons
+DESCRIPTION:📺 Watch on NBCS-BA, BSDET\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeO5-j?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeO5-3x?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeO5-2G?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Little Caesars Arena\, 2645 Woodward Avenue\, Detroit\, MI 48201
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Pistons
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221101T233000Z
+DTEND:20221102T023000Z
+UID:vRTA2eY3iia9onMntUoDO9dW@stanza.co
+SUMMARY:Warriors at Heat
+DESCRIPTION:📺 Watch on BSSUN, NBCS-BA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeO8-35?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeO8-1A?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeO8-3u?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:FTX Arena\, 601 Biscayne Blvd\, Miami\, FL 33132
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Heat
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221103T230000Z
+DTEND:20221104T020000Z
+UID:IreEupSndmpgzpa2kLfvsHeK@stanza.co
+SUMMARY:Warriors at Magic
+DESCRIPTION:📺 Watch on NBCS-BA, BSFL\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOb-1w?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOb-3y?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOb-3H?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Amway Center\, 400 W Church St #200\, Orlando\, FL 32801
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Magic
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221105T003000Z
+DTEND:20221105T033000Z
+UID:bKj3rtMALgds__pMUbxvE-nE@stanza.co
+SUMMARY:Warriors at Pelicans
+DESCRIPTION:📺 Watch on BSNO, NBCS-BA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOe-3R?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOe-2d?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOe-1O?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Smoothie King Center\, 1501 Dave Dixon Dr\, New Orleans\, LA 70113
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Pelicans
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221108T030000Z
+DTEND:20221108T060000Z
+UID:nBNqQba7lTYzU7SK-9vdrfmn@stanza.co
+SUMMARY:Warriors vs. Kings
+DESCRIPTION:📺 Watch on NBCS-BA, NBCS-CA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOi-3V?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOi-c?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOi-q?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Kings
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221112T030000Z
+DTEND:20221112T060000Z
+UID:k8ZKeZs73Dh8nk5J8UoVNtF5@stanza.co
+SUMMARY:Warriors vs. Cavaliers
+DESCRIPTION:📺 Watch on NBCS-BA, BSOH\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOm-1H?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOm-W?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOm-y?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Cavaliers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221114T020000Z
+DTEND:20221114T050000Z
+UID:8nqOTVN7MEXRzRVhDbSTD6Hj@stanza.co
+SUMMARY:Warriors at Kings
+DESCRIPTION:📺 Watch on NBCS-BA, NBCS-CA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOp-3D?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOp-_?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOp-3o?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Golden 1 Center\, 500 David J Stern Walk\, Sacramento\, CA 95814
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Kings
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221115T030000Z
+DTEND:20221115T060000Z
+UID:TRUw2qI9FZPrX6l4nAn3XHlD@stanza.co
+SUMMARY:Warriors vs. Spurs
+DESCRIPTION:📺 Watch on NBCS-BA, BSSW\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOr-2V?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOr-33?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOr-1R?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Spurs
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221117T030000Z
+DTEND:20221117T060000Z
+UID:a5uLitjyXA7NsUR1R4Eo59m8@stanza.co
+SUMMARY:Warriors at Suns
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, BSAZ\n\n🎟️ Buy tickets here: https://stza.co/~XeOv?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOv-3F?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOv-2S?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Footprint Center\, Phoenix
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Suns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221119T030000Z
+DTEND:20221119T060000Z
+UID:rcK65paQLJCdWqJT68j1FDA5@stanza.co
+SUMMARY:Warriors vs. Knicks
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, MSG\n\n🎟️ Buy tickets here: https://stza.co/~XeOB?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOB-2x?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOB-V?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Knicks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221121T000000Z
+DTEND:20221121T030000Z
+UID:LcBd_2XhnCuOowdkwFCzpJIP@stanza.co
+SUMMARY:Warriors at Rockets
+DESCRIPTION:📺 Watch on NBCS-BA, SportsNet SW\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOE-1_?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOE-3G?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOE-1z?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Toyota Center\, 1510 Polk St\, Houston\, TX 77002
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Rockets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221122T010000Z
+DTEND:20221122T040000Z
+UID:17_sa6zcuC9E5SWT9YrGiCL7@stanza.co
+SUMMARY:Warriors at Pelicans
+DESCRIPTION:📺 Watch on NBA TV, BSNO, NBCS-BA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOH-21?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOH-2k?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOH-y?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Smoothie King Center\, 1501 Dave Dixon Dr\, New Orleans\, LA 70113
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Pelicans
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221124T030000Z
+DTEND:20221124T060000Z
+UID:BykYP1GCAPdNhgzFueZh-Xjx@stanza.co
+SUMMARY:Warriors vs. Clippers
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeOM?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOM-2j?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOM-34?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Clippers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221126T030000Z
+DTEND:20221126T060000Z
+UID:66R-XuQxvWUhu_JiAHjRVenA@stanza.co
+SUMMARY:Warriors vs. Jazz
+DESCRIPTION:📺 Watch on NBCS-BA, SportsNet RM\n\n🎟️ Buy tickets here: https://stza.co/~XeOP?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOP-38?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOP-A?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Jazz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221127T203000Z
+DTEND:20221127T233000Z
+UID:8Rejh8HG9EE1RjnEzLkXSkna@stanza.co
+SUMMARY:Warriors at Wolves
+DESCRIPTION:📺 Watch on NBCS-BA, BSN\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOR-X?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOR-2l?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeOR-m?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Target Center\, 600 N 1st Ave\, Minneapolis\, MN 55403
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Wolves
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221130T003000Z
+DTEND:20221130T033000Z
+UID:NPfu-t_I5HxRL-6OGY5OXCCn@stanza.co
+SUMMARY:Warriors at Mavericks
+DESCRIPTION:Warriors at Mavericks\n\n🎟️ Buy tickets here: https://stza.co/~XeOU?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOU-2R?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOU-1j?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:American Airlines Center\, 2500 Victory Ave\, Dallas\, TX 75219
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Mavericks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221203T030000Z
+DTEND:20221203T060000Z
+UID:iutZbzpZ7A7eOMF-en-NYuZh@stanza.co
+SUMMARY:Warriors vs. Bulls
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeOZ?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeOZ-f?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeOZ-b?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Bulls
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221204T013000Z
+DTEND:20221204T043000Z
+UID:d8qPFrtcjrhFtendRmErUlo_@stanza.co
+SUMMARY:Warriors vs. Rockets
+DESCRIPTION:📺 Watch on NBCS-BA, SportsNet SW\n\n🎟️ Buy tickets here: https://stza.co/~XeP2?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeP2-27?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeP2-3h?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Rockets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221206T030000Z
+DTEND:20221206T060000Z
+UID:QE_iUJ_vUBUCAehbh3Zdojxk@stanza.co
+SUMMARY:Warriors vs. Pacers
+DESCRIPTION:📺 Watch on NBCS-BA, BSIN\n\n🎟️ Buy tickets here: https://stza.co/~XeP6?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeP6-1w?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeP6-g?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Pacers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221208T020000Z
+DTEND:20221208T050000Z
+UID:70oZmQjJXXpJRyvxaYXZ0ezm@stanza.co
+SUMMARY:Warriors at Jazz
+DESCRIPTION:📺 Watch on SportsNet RM, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeP8?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeP8-2u?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeP8-1a?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Vivint Arena\, 301 S Temple\, Salt Lake City\, UT 84101
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Jazz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221211T013000Z
+DTEND:20221211T043000Z
+UID:SNQ7zrOUsUxlRHQV6eZYJsv4@stanza.co
+SUMMARY:Warriors vs. Celtics
+DESCRIPTION:📺 Watch on ABC\n\n🎟️ Buy tickets here: https://stza.co/~XePf?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePf-1e?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePf-H?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Celtics
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221214T003000Z
+DTEND:20221214T033000Z
+UID:u2324suJQf_Pzy4t81B8F4qX@stanza.co
+SUMMARY:Warriors at Bucks
+DESCRIPTION:Warriors at Bucks\n\n🎟️ Buy tickets here: https://stza.co/~XePg?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePg-15?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePg-3L?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Fiserv Forum\, 1111 Vel R. Phillips Ave\, Milwaukee\, WI 53203
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Bucks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221215T000000Z
+DTEND:20221215T030000Z
+UID:VXWF7ZjzBnA9DEOuB3Z7kQsj@stanza.co
+SUMMARY:Warriors at Pacers
+DESCRIPTION:📺 Watch on NBCS-BA, BSIN\n\n🎟️ Buy tickets here: https://stza.co/~XePi?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePi-1z?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePi-$?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Gainbridge Fieldhouse\, Indianapolis
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Pacers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221217T003000Z
+DTEND:20221217T033000Z
+UID:Q0C6onDzhjrwLLBQOsjmdtLV@stanza.co
+SUMMARY:Warriors at 76ers
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, NBCS-PH\n\n🎟️ Buy tickets here: https://stza.co/~XePl?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePl-l?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePl-m?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Wells Fargo Center\, 3601 S Broad St\, Philadelphia\, PA 19148
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at 76ers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221218T230000Z
+DTEND:20221219T020000Z
+UID:WdXL90ClCAob6QiTAqura2vI@stanza.co
+SUMMARY:Warriors at Raptors
+DESCRIPTION:📺 Watch on TSN, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XePn?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePn-3i?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePn-18?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Scotiabank Arena\, 40 Bay St\, Toronto\, ON M5J 2X2\, Canada
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Raptors
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221221T003000Z
+DTEND:20221221T033000Z
+UID:j9ILasFl6oE_99xLJ0_VQFa1@stanza.co
+SUMMARY:Warriors at Knicks
+DESCRIPTION:Warriors at Knicks\n\n🎟️ Buy tickets here: https://stza.co/~XePp?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePp-3O?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePp-2S?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza\, New York\, NY 10001
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Knicks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221222T003000Z
+DTEND:20221222T033000Z
+UID:-JG9QTzMdhNK-wju6-3uwF73@stanza.co
+SUMMARY:Warriors at Nets
+DESCRIPTION:📺 Watch on NBA TV, YES, NBCS-BA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XePr-2p?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePr-3V?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XePr-2l?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Barclays Center\, 620 Atlantic Ave\, Brooklyn\, NY 11217
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Nets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221226T010000Z
+DTEND:20221226T040000Z
+UID:H03lKkNcJhXYmvJFxOceaAAB@stanza.co
+SUMMARY:Warriors vs. Grizzlies
+DESCRIPTION:📺 Watch on ABC, ESPN\n\n🎟️ Buy tickets here: https://stza.co/~XePu?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePu-3H?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePu-1r?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Grizzlies
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221228T030000Z
+DTEND:20221228T060000Z
+UID:xZtbcltWSkicoblWKSxn2fr-@stanza.co
+SUMMARY:Warriors vs. Hornets
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, BSSE\n\n🎟️ Buy tickets here: https://stza.co/~XePz?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePz-r?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePz-b?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Hornets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221229T030000Z
+DTEND:20221229T060000Z
+UID:8mScuIs7CrmMAUeMyKnHEPtc@stanza.co
+SUMMARY:Warriors vs. Jazz
+DESCRIPTION:📺 Watch on NBCS-BA, SportsNet RM\n\n🎟️ Buy tickets here: https://stza.co/~XePI?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePI-3z?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePI-3v?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Jazz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20221231T030000Z
+DTEND:20221231T060000Z
+UID:DIc4cTouJhMf7eSx0uL7DgTd@stanza.co
+SUMMARY:Warriors vs. Trail Blazers
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, ROOT Sports NW+\n\n🎟️ Buy tickets here: https://stza.co/~XePM?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePM-y?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePM-3j?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Trail Blazers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230103T030000Z
+DTEND:20230103T060000Z
+UID:iHXgpQAi3-P_fn2KUiFgKbEv@stanza.co
+SUMMARY:Warriors vs. Hawks
+DESCRIPTION:📺 Watch on NBCS-BA, BSSE\n\n🎟️ Buy tickets here: https://stza.co/~XePO?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePO-V?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePO-e?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Hawks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230105T030000Z
+DTEND:20230105T060000Z
+UID:0zJKCK3qoOphgwBmJC2ucMpt@stanza.co
+SUMMARY:Warriors vs. Pistons
+DESCRIPTION:📺 Watch on NBCS-BA, BSDET\n\n🎟️ Buy tickets here: https://stza.co/~XePQ?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePQ-3R?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePQ-3D?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Pistons
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230108T013000Z
+DTEND:20230108T043000Z
+UID:m9zP94UfImkjnVDRPASKeBqf@stanza.co
+SUMMARY:Warriors vs. Magic
+DESCRIPTION:📺 Watch on NBCS-BA, BSFL\n\n🎟️ Buy tickets here: https://stza.co/~XePS?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePS-1J?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePS-27?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Magic
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230111T030000Z
+DTEND:20230111T060000Z
+UID:d_UbkDWxjU5f9g-oBW8jEDLu@stanza.co
+SUMMARY:Warriors vs. Suns
+DESCRIPTION:Warriors vs. Suns\n\n🎟️ Buy tickets here: https://stza.co/~XePW?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePW-_?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePW-U?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Suns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230114T003000Z
+DTEND:20230114T033000Z
+UID:qXf7R4-KaEkNkMFzKEjtwWzC@stanza.co
+SUMMARY:Warriors at Spurs
+DESCRIPTION:📺 Watch on ESPN, BSSW, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XePZ?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XePZ-2$?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XePZ-w?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:AT&T Center\, 1 AT&T Center Parkway\, San Antonio\, TX 78219
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Spurs
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230115T203000Z
+DTEND:20230115T233000Z
+UID:bsxv3V-GBnIdXbkaH_GO1Cq_@stanza.co
+SUMMARY:Warriors at Bulls
+DESCRIPTION:📺 Watch on NBCS-CHI, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeP$?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeP$-2_?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeP$-2U?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:United Center\, 1901 W Madison St\, Chicago\, IL 60612
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Bulls
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230116T200000Z
+DTEND:20230116T230000Z
+UID:0UxnagJtKPrl7kYzwPUZss88@stanza.co
+SUMMARY:Warriors at Wizards
+DESCRIPTION:📺 Watch on NBCS-DC, NBCS-CA\n\n🎟️ Buy tickets here: https://stza.co/~XeQ0?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQ0-3f?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQ0-8?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Capital One Arena\, 601 F St NW\, Washington\, DC 20004
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Wizards
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230120T003000Z
+DTEND:20230120T033000Z
+UID:0EvVeAncoWU_kKqnUt5E1Sn-@stanza.co
+SUMMARY:Warriors at Celtics
+DESCRIPTION:Warriors at Celtics\n\n🎟️ Buy tickets here: https://stza.co/~XeQ3?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQ3-2F?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQ3-$?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA 02114
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Celtics
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230121T003000Z
+DTEND:20230121T033000Z
+UID:RkpdEdlOjd-I_Ew6BrdsrXAj@stanza.co
+SUMMARY:Warriors at Cavaliers
+DESCRIPTION:📺 Watch on BSOH, NBCS-BA\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQ5-25?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQ5-2J?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeQ5-3M?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Rocket Mortgage Fieldhouse\, 1 Center Ct\, Cleveland\, OH 44115
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Cavaliers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230123T013000Z
+DTEND:20230123T043000Z
+UID:OT4FXtNBWGBfZaG2CLY5NFE_@stanza.co
+SUMMARY:Warriors vs. Nets
+DESCRIPTION:📺 Watch on NBCS-BA, YES, NBA TV\n\n🎟️ Buy tickets here: https://stza.co/~XeQ9?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQ9-3G?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQ9-2y?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Nets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230126T030000Z
+DTEND:20230126T060000Z
+UID:21UeWFLP5WJGGIedcisy7jrE@stanza.co
+SUMMARY:Warriors vs. Grizzlies
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, BSSE\n\n🎟️ Buy tickets here: https://stza.co/~XeQb?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQb-1P?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQb-2v?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Grizzlies
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230128T030000Z
+DTEND:20230128T060000Z
+UID:FZvekbtueKuDU08CFJZMQnx6@stanza.co
+SUMMARY:Warriors vs. Raptors
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, TSN\n\n🎟️ Buy tickets here: https://stza.co/~XeQd?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQd-2B?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQd-2F?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Raptors
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230131T010000Z
+DTEND:20230131T040000Z
+UID:MCoXNxs4k5mYN9ksg4b1WWY2@stanza.co
+SUMMARY:Warriors at Thunder
+DESCRIPTION:📺 Watch on BSOK, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQe?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQe-V?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQe-s?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Paycom Center\, Oklahoma City
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Thunder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230202T010000Z
+DTEND:20230202T040000Z
+UID:AuIEywDomc8NalNb72u4gaUz@stanza.co
+SUMMARY:Warriors at Wolves
+DESCRIPTION:📺 Watch on NBCS-BA, BSN\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQf-2T?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQf-1f?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeQf-1O?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Target Center\, 600 N 1st Ave\, Minneapolis\, MN 55403
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Wolves
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230203T020000Z
+DTEND:20230203T050000Z
+UID:KWOEHHZYGhA_M3aZ9Bv0PIdT@stanza.co
+SUMMARY:Warriors at Nuggets
+DESCRIPTION:📺 Watch on ALT, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQg?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQg-2h?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQg-3i?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Ball Arena\, 1000 Chopper Cir\, Denver\, CO 80204
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Nuggets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230205T013000Z
+DTEND:20230205T043000Z
+UID:bLykftENPKtzPVhINnHGdK9S@stanza.co
+SUMMARY:Warriors vs. Mavericks
+DESCRIPTION:📺 Watch on ABC\n\n🎟️ Buy tickets here: https://stza.co/~XeQi?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQi-O?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQi-2g?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Mavericks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230207T030000Z
+DTEND:20230207T060000Z
+UID:1juyR9M9iQpZpO7mT5XUeVUp@stanza.co
+SUMMARY:Warriors vs. Thunder
+DESCRIPTION:📺 Watch on NBCS-BA, BSOK\n\n🎟️ Buy tickets here: https://stza.co/~XeQk?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQk-1u?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQk-6?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Thunder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230209T030000Z
+DTEND:20230209T060000Z
+UID:aRnKCLjPrKvO7foQt4H0U_cc@stanza.co
+SUMMARY:Warriors at Trail Blazers
+DESCRIPTION:📺 Watch on ROOT Sports NW, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQl?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQl-3s?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQl-g?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Trail Blazers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230212T013000Z
+DTEND:20230212T043000Z
+UID:IhbStH9uPV6JPSi3eOtlUjNn@stanza.co
+SUMMARY:Warriors vs. Lakers
+DESCRIPTION:📺 Watch on ABC\n\n🎟️ Buy tickets here: https://stza.co/~XeQn?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQn-1Y?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQn-2I?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Lakers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230214T030000Z
+DTEND:20230214T060000Z
+UID:ctBTOCcr9zgC-VmxyzRBNVfM@stanza.co
+SUMMARY:Warriors vs. Wizards
+DESCRIPTION:📺 Watch on NBCS-BA, NBCS-DC\n\n🎟️ Buy tickets here: https://stza.co/~XeQp?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQp-1x?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQp-3s?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Wizards
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230215T030000Z
+DTEND:20230215T060000Z
+UID:ETyOipdJNxMeueu0p1Iq7MCQ@stanza.co
+SUMMARY:Warriors at Clippers
+DESCRIPTION:Warriors at Clippers\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQq-3k?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQq-2G?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeQq-2d?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Crypto.com Arena\, 1111 S Figueroa St\, Los Angeles\, CA 90015
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Clippers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230224T030000Z
+DTEND:20230224T060000Z
+UID:Yh5FF-Ymg7E_kZetMW4OT_yg@stanza.co
+SUMMARY:Warriors at Lakers
+DESCRIPTION:Warriors at Lakers\n\n🎟️ Buy tickets here: https://stza.co/~XeQr?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQr-1$?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQr-2_?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Crypto.com Arena\, 1111 S Figueroa St\, Los Angeles\, CA 90015
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Lakers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230225T030000Z
+DTEND:20230225T060000Z
+UID:v_Q2QqpyYqHETiC8LLutWVfL@stanza.co
+SUMMARY:Warriors vs. Rockets
+DESCRIPTION:📺 Watch on NBCS-BA, SportsNet SW\n\n🎟️ Buy tickets here: https://stza.co/~XeQt?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQt-C?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQt-1u?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Rockets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230227T003000Z
+DTEND:20230227T033000Z
+UID:y_tSZZbLbrFGRpdh07Sx-TdR@stanza.co
+SUMMARY:Warriors vs. Wolves
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, BSN\n\n🎟️ Buy tickets here: https://stza.co/~XeQv?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQv-o?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQv-1H?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Wolves
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230301T030000Z
+DTEND:20230301T060000Z
+UID:MEAKvr7_Qs-21a8TvUdKDiLz@stanza.co
+SUMMARY:Warriors vs. Trail Blazers
+DESCRIPTION:📺 Watch on NBCS-BA, ROOT Sports NW+\n\n🎟️ Buy tickets here: https://stza.co/~XeQx?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQx-2X?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQx-3u?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Trail Blazers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230303T030000Z
+DTEND:20230303T060000Z
+UID:z6NM0_GOcRiFu_P0d0iZOT9a@stanza.co
+SUMMARY:Warriors vs. Clippers
+DESCRIPTION:Warriors vs. Clippers\n\n🎟️ Buy tickets here: https://stza.co/~XeQz?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQz-1r?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQz-2P?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Clippers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230304T030000Z
+DTEND:20230304T060000Z
+UID:kjoh6LDaqZXZ37UnBbaC23cI@stanza.co
+SUMMARY:Warriors vs. Pelicans
+DESCRIPTION:📺 Watch on NBCS-BA, BSNO\n\n🎟️ Buy tickets here: https://stza.co/~XeQB?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQB-2t?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQB-39?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Pelicans
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230305T203000Z
+DTEND:20230305T233000Z
+UID:qgvdO7PKY0jDEhpZCmT9i56s@stanza.co
+SUMMARY:Warriors at Lakers
+DESCRIPTION:📺 Watch on ABC\n\n🎟️ Buy tickets here: https://stza.co/~XeQC?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQC-g?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQC-27?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Crypto.com Arena\, 1111 S Figueroa St\, Los Angeles\, CA 90015
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Lakers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230308T010000Z
+DTEND:20230308T040000Z
+UID:alvySn4mYuBm7GQiscAVbigr@stanza.co
+SUMMARY:Warriors at Thunder
+DESCRIPTION:📺 Watch on BSOK, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQD?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQD-3g?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQD-23?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Paycom Center\, Oklahoma City
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Thunder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230310T030000Z
+DTEND:20230310T060000Z
+UID:eC20jBI2AuEVpCysfyIebSZG@stanza.co
+SUMMARY:Warriors at Grizzlies
+DESCRIPTION:Warriors at Grizzlies\n\n🎟️ Buy tickets here: https://stza.co/~XeQE?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQE-2h?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQE-20?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:FedExForum\, 191 Beale St\, Memphis\, TN 38103
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Grizzlies
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230312T013000Z
+DTEND:20230312T043000Z
+UID:B1xIqlwQoameBLrMSK3LF2jP@stanza.co
+SUMMARY:Warriors vs. Bucks
+DESCRIPTION:📺 Watch on ABC\n\n🎟️ Buy tickets here: https://stza.co/~XeQG?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQG-3k?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQG-1m?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Bucks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230314T020000Z
+DTEND:20230314T050000Z
+UID:5jlRT8MmvHjJaANcRqRcTRo9@stanza.co
+SUMMARY:Warriors vs. Suns
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, BSAZ\n\n🎟️ Buy tickets here: https://stza.co/~XeQI?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQI-1$?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQI-3F?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Suns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230316T020000Z
+DTEND:20230316T050000Z
+UID:fVEFAt5NRVcSCAFh2Y_5jOTh@stanza.co
+SUMMARY:Warriors at Clippers
+DESCRIPTION:📺 Watch on ESPN, NBCS-BA, BSSC\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQJ-32?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQJ-2e?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeQJ-25?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Crypto.com Arena\, 1111 S Figueroa St\, Los Angeles\, CA 90015
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Clippers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230317T233000Z
+DTEND:20230318T023000Z
+UID:zw9GBY_TsKLkIpNxbv2y28Kl@stanza.co
+SUMMARY:Warriors at Hawks
+DESCRIPTION:📺 Watch on NBA TV, BSSE, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQK?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQK-1c?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQK-2w?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:State Farm Arena\, 1 State Farm Dr\, Atlanta\, GA 30303
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Hawks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230319T000000Z
+DTEND:20230319T030000Z
+UID:6c1cN5d96rSuHX-b7WDbCuHo@stanza.co
+SUMMARY:Warriors at Grizzlies
+DESCRIPTION:📺 Watch on NBA TV, BSSE, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQL?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQL-1m?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQL-37?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:FedExForum\, 191 Beale St\, Memphis\, TN 38103
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Grizzlies
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230321T000000Z
+DTEND:20230321T030000Z
+UID:NYzI7PjK1gQGHnB33EloKJas@stanza.co
+SUMMARY:Warriors at Rockets
+DESCRIPTION:📺 Watch on NBCS-BA, SportsNet SW\n\n\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQM-b?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQM-3L?trk=NlcZ\n\nSeason Ticket Holder Waitlist https://stza.co/+XeQM-3a?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Toyota Center\, 1510 Polk St\, Houston\, TX 77002
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Rockets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230322T233000Z
+DTEND:20230323T023000Z
+UID:g87_iKpx3AnlR1SHTi9VAL3w@stanza.co
+SUMMARY:Warriors at Mavericks
+DESCRIPTION:📺 Watch on ESPN, BSSW, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQN?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQN-3L?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQN-1i?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:American Airlines Center\, 2500 Victory Ave\, Dallas\, TX 75219
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Mavericks
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230325T020000Z
+DTEND:20230325T050000Z
+UID:0K58GXYR_R3jDLxL8wsPfZCX@stanza.co
+SUMMARY:Warriors vs. 76ers
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, NBCS-PH\n\n🎟️ Buy tickets here: https://stza.co/~XeQP?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQP-2T?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQP-3u?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. 76ers
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230327T003000Z
+DTEND:20230327T033000Z
+UID:ne0CVeGebHOZ1vGfnCF__-Vb@stanza.co
+SUMMARY:Warriors vs. Wolves
+DESCRIPTION:📺 Watch on NBA TV, NBCS-BA, BSN\n\n🎟️ Buy tickets here: https://stza.co/~XeQR?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQR-3C?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQR-3D?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Wolves
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230329T020000Z
+DTEND:20230329T050000Z
+UID:9gbwZYFfGMGwhOlaUk9i0BZF@stanza.co
+SUMMARY:Warriors vs. Pelicans
+DESCRIPTION:Warriors vs. Pelicans\n\n🎟️ Buy tickets here: https://stza.co/~XeQT?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQT-C?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQT-15?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Pelicans
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230401T020000Z
+DTEND:20230401T050000Z
+UID:XblNT59Rfq-g1Kr79zTaczLc@stanza.co
+SUMMARY:Warriors vs. Spurs
+DESCRIPTION:📺 Watch on NBCS-BA, KENS\n\n🎟️ Buy tickets here: https://stza.co/~XeQV?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQV-3I?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQV-2m?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Spurs
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230403T003000Z
+DTEND:20230403T033000Z
+UID:nyXRBoR7HhEP0AvUJWh7WL9y@stanza.co
+SUMMARY:Warriors at Nuggets
+DESCRIPTION:📺 Watch on NBA TV, ALT, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQW?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQW-D?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQW-1V?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Ball Arena\, 1000 Chopper Cir\, Denver\, CO 80204
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Nuggets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230405T020000Z
+DTEND:20230405T050000Z
+UID:wLLWCu3iVLxbuFtBh5OCa2MA@stanza.co
+SUMMARY:Warriors vs. Thunder
+DESCRIPTION:📺 Watch on NBCS-BA, BSOK\n\n🎟️ Buy tickets here: https://stza.co/~XeQY?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQY-b?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQY-15?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Chase Center\, 1 Warriors Way\, San Francisco\, CA 94158
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors vs. Thunder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230408T020000Z
+DTEND:20230408T050000Z
+UID:lc06Pq_mpHPeVPPyDPOVuFOz@stanza.co
+SUMMARY:Warriors at Kings
+DESCRIPTION:📺 Watch on NBCS-CA, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQZ?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQZ-t?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQZ-F?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Golden 1 Center\, 500 David J Stern Walk\, Sacramento\, CA 95814
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Kings
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230409T193000Z
+DTEND:20230409T223000Z
+UID:qKdRQyVg28bbC6gNIqQl8aOW@stanza.co
+SUMMARY:Warriors at Trail Blazers
+DESCRIPTION:📺 Watch on ROOT Sports NW, NBCS-BA\n\n🎟️ Buy tickets here: https://stza.co/~XeQ_?trk=NlcZ\n\n🏀  Shop Golden State Warriors https://stza.co/+XeQ_-3F?trk=NlcZ\n\nDownload the Warriors App https://stza.co/+XeQ_-Z?trk=NlcZ\n\n🗑:  stza.co/$delete?trk=NlcZ\n\n👍 or 👎: stza.co/$review?trk=NlcZ
+LOCATION:Moda Center\, 1 N Center Ct St\, Portland\, OR 97227
+STATUS:CONFIRMED
+DTSTAMP:20221116T151858Z
+CREATED:20221116T151858Z
+LAST-MODIFIED:20221116T151858Z
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER;VALUE=DURATION:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Warriors at Trail Blazers
+END:VALARM
+END:VEVENT
+END:VCALENDAR
