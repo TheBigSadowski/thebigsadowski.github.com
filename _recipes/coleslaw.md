@@ -1,3 +1,9 @@
+---
+title: Coleslaw
+description: the secret ingredient is hoseradish!
+---
+
+## Ingredients
 * 3/4 cup mayonnaise
 * 2 tablespoons sugar
 * 1 tablespoon Dijon mustard
