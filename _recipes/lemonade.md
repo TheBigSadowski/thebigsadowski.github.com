@@ -1,5 +1,5 @@
 ---
-title: lemonade
+title: Lemonade
 description: makes 1/2 gallon and is mich better with meyer lemons
 ---
 
