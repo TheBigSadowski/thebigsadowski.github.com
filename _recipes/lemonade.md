@@ -1,6 +1,6 @@
 ---
 title: Lemonade
-description: makes 1/2 gallon and is mich better with meyer lemons
+description: Makes 1/2 gallon and is best with meyer lemons
 ---
 
 ## Ingredients
