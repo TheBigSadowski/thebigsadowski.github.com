@@ -1,8 +1,9 @@
 ---
 title: lemonade
-description: basic lemonade - try to find Meyer lemons 
+description: makes 1/2 gallon and is mich better with meyer lemons
 ---
 
-* 1 part lemon juice (about 6-8 lemons to make 1 cup)
-* 1 part sugar
-* 7 parts water
+## Ingredients
+* 1 cup lemon juice (6-8 lemons)
+* 1 cup sugar (ok to round down a bit)
+* 7 cups water
