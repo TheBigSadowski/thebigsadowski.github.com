@@ -20,4 +20,12 @@ li { margin-top: 8px; margin-bottom: 8px; }
 <h1>Next Game</h1>
 <section id="content"></section>
 
+<script>
+    const response = await fetch("https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2023/league/00_full_schedule.json");
+    const games = await response.json();
+    const content = games['lscd'].map(month => month['mscd']['g']).flat().map(g => `<h2>${g['v']} vs ${g['h']}</h2>`);
+</script>
+
+<!-- curl https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2023/league/00_full_schedule.json | jq '.lscd[] | .mscd.g[] | select(.h.ta=="GSW" or .v.ta=="GSW") | {date: .gdte, home: {team: .h.ta, score: .h.s}, visitor: {team: .v.ta, score: .v.s}}' -->
+
 </body>
