@@ -17,13 +17,59 @@ li { margin-top: 8px; margin-bottom: 8px; }
 
 <body>
 
-<h1>Next Game</h1>
+<section id="next"></section>
+<h1>Next Games</h1>
 <section id="content"></section>
 
 <script>
+  function timeOfGame(game){
+    return new Date(`${game['gdtutc']}T${game['utctm']}Z`);
+  }
+  function timeBetween(date1, date2) {
+    const diff = Math.abs(date1 - date2);
+    const days = Math.floor(diff / (1000*60*60*24));
+    const hours = Math.floor(diff / (1000*60*60));
+    const minutes = Math.floor(diff / (1000*60));
+    const seconds = Math.floor(diff / (1000));
+    var results = [];
+    if (days > 0) {
+      results.push(`${days} days`);
+    }
+    if (hours > 0) {
+      results.push(`${hours} hours`);
+    }
+    if (minutes > 0) {
+      results.push(`${minutes} minutes`);
+    }
+    if (seconds > 0) {
+      results.push(`${seconds} seconds`);
+    }
+    console.log(results);
+    return results.join(', ');
+  }
+  async function getContent() {
     const response = await fetch("https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2023/league/00_full_schedule.json");
-    const games = await response.json();
-    const content = games['lscd'].map(month => month['mscd']['g']).flat().map(g => `<h2>${g['v']} vs ${g['h']}</h2>`);
+    const json = await response.json();
+    const games = json['lscd'].map(month => month['mscd']['g']).flat().sort((a, b) => timeOfGame(a) - timeOfGame(b));
+    const warriorsGames = games.filter(g => g['h']['ta'] === 'GSW' || g['v']['ta'] === 'GSW');
+    const futureWarriorsGames = warriorsGames.filter(g => timeOfGame(g) > new Date());
+    const content = futureWarriorsGames.map(g => `
+      <h2>${g['v']['tn']} @ ${g['h']['tn']}</h2>
+      <p>${timeOfGame(g)}</p>
+    `);
+    document.getElementById('content').innerHTML = content.join('\n');
+
+
+    document.nextGame = futureWarriorsGames[0];
+    setInterval(function(){
+      const nextGame = document.nextGame;
+      document.getElementById('next').innerHTML = `
+        <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
+        <p>Starts in ${timeBetween(timeOfGame(nextGame), new Date)}</p>
+      `;
+    }, 1000);
+  }
+  getContent()
 </script>
 
 <!-- curl https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2023/league/00_full_schedule.json | jq '.lscd[] | .mscd.g[] | select(.h.ta=="GSW" or .v.ta=="GSW") | {date: .gdte, home: {team: .h.ta, score: .h.s}, visitor: {team: .v.ta, score: .v.s}}' -->
