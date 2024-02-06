@@ -28,9 +28,9 @@ li { margin-top: 8px; margin-bottom: 8px; }
   function timeBetween(date1, date2) {
     const diff = Math.abs(date1 - date2);
     const days = Math.floor(diff / (1000*60*60*24));
-    const hours = Math.floor(diff / (1000*60*60));
-    const minutes = Math.floor(diff / (1000*60));
-    const seconds = Math.floor(diff / (1000));
+    const hours = Math.floor(diff / (1000*60*60)) % 24;
+    const minutes = Math.floor(diff / (1000*60)) % 60;
+    const seconds = Math.floor(diff / (1000)) % 60;
     var results = [];
     if (days > 0) {
       results.push(`${days} days`);
