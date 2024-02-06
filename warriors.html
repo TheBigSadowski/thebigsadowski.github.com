@@ -35,13 +35,13 @@ li { margin-top: 8px; margin-bottom: 8px; }
     if (days > 0) {
       results.push(`${days} days`);
     }
-    if (hours > 0) {
+    if (days > 0 || hours > 0) {
       results.push(`${hours} hours`);
     }
-    if (minutes > 0) {
+    if (days > 0 || hours > 0 || minutes > 0) {
       results.push(`${minutes} minutes`);
     }
-    if (seconds > 0) {
+    if (days > 0 || hours > 0 || minutes > 0 || seconds > 0) {
       results.push(`${seconds} seconds`);
     }
     console.log(results);
