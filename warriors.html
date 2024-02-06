@@ -33,16 +33,16 @@ li { margin-top: 8px; margin-bottom: 8px; }
     const seconds = Math.floor(diff / (1000)) % 60;
     var results = [];
     if (days > 0) {
-      results.push(`${days} days`);
+      results.push(`${days} ${days == 1 ? 'day' : 'days'}`);
     }
     if (days > 0 || hours > 0) {
-      results.push(`${hours} hours`);
+      results.push(`${hours} ${hours == 1 ? 'hour' : 'hours'}`);
     }
     if (days > 0 || hours > 0 || minutes > 0) {
-      results.push(`${minutes} minutes`);
+      results.push(`${minutes} ${minutes == 1 ? 'minute' : 'minutes'}`);
     }
     if (days > 0 || hours > 0 || minutes > 0 || seconds > 0) {
-      results.push(`${seconds} seconds`);
+      results.push(`${seconds} ${seconds == 1 ? 'second' : 'seconds'}`);
     }
     console.log(results);
     return results.join(', ');
