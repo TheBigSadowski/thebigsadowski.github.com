@@ -65,6 +65,7 @@ li { margin-top: 8px; margin-bottom: 8px; }
       const nextGame = document.nextGame;
       document.getElementById('next').innerHTML = `
         <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
+        <p>${timeOfGame(nextGame)}</p>
         <p>Starts in ${timeBetween(timeOfGame(nextGame), new Date)}</p>
       `;
     }, 1000);
