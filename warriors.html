@@ -3,12 +3,13 @@
 
 <head>
 <title>Next Warriors Game</title>
-<link rel="stylesheet" href="/style/all.css">
 <style>
-body { font-family: helvetica, arial, sans-serif; font-size: 0.9em; max-width: 50em; margin: 0 auto; }
-address { position: absolute; top: 20px; right: 25px; text-align: right; }
-address a { display: block; }
-h2 span { color: #666; font-size: 50%; }
+body { font-family: helvetica, arial, sans-serif; font-size: 0.9em; max-width: 50em; margin: 0 auto; background: #1D428A; color: #FFC72C;   text-shadow:
+    1px 1px 1px #fff,
+    -1px 1px 1px #fff,
+    1px -1px 1px #fff,
+    -1px -1px 1px #fff; font-size: 5em;
+}
 h2 { margin-top: 30px; }
 h4 { margin-bottom: 0; }
 li { margin-top: 8px; margin-bottom: 8px; }
@@ -44,7 +45,7 @@ li { margin-top: 8px; margin-bottom: 8px; }
     if (days > 0 || hours > 0 || minutes > 0 || seconds > 0) {
       results.push(`${seconds} ${seconds == 1 ? 'second' : 'seconds'}`);
     }
-    console.log(results);
+    // console.log(results);
     return results.join(', ');
   }
   async function getContent() {
@@ -63,10 +64,21 @@ li { margin-top: 8px; margin-bottom: 8px; }
     document.nextGame = futureWarriorsGames[0];
     setInterval(function(){
       const nextGame = document.nextGame;
+      const today = new Date().toLocaleDateString();
+      var tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toLocaleDateString();
+      const gameDate = new Date(timeOfGame(nextGame)).toLocaleDateString();
+      var dayString = '<error>';
+      if (gameDate === today) {
+        dayString = 'Today';
+      } else if (gameDate === tomorrow) {
+        dayString = 'Tomorrow';
+      } else {
+        dayString = new Date(timeOfGame(nextGame)).toLocaleString('en-us', {  weekday: 'long' })
+      }
       document.getElementById('next').innerHTML = `
         <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
-        <p>${timeOfGame(nextGame)}</p>
-        <p>Starts in ${timeBetween(timeOfGame(nextGame), new Date)}</p>
+        <p>In ${timeBetween(timeOfGame(nextGame), new Date)}</p>
+        <p> ${dayString} ${new Date(timeOfGame(nextGame)).toLocaleTimeString()}</p>
       `;
     }, 1000);
   }
