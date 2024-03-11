@@ -45,7 +45,6 @@ li { margin-top: 8px; margin-bottom: 8px; }
     if (days > 0 || hours > 0 || minutes > 0 || seconds > 0) {
       results.push(`${seconds} ${seconds == 1 ? 'second' : 'seconds'}`);
     }
-    // console.log(results);
     return results.join(', ');
   }
   async function getContent() {
@@ -62,7 +61,7 @@ li { margin-top: 8px; margin-bottom: 8px; }
 
 
     document.nextGame = futureWarriorsGames[0];
-    setInterval(function(){
+    const updateNextGame = function(){
       const nextGame = document.nextGame;
       const today = new Date().toLocaleDateString();
       var tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toLocaleDateString();
@@ -80,7 +79,9 @@ li { margin-top: 8px; margin-bottom: 8px; }
         <p>In ${timeBetween(timeOfGame(nextGame), new Date)}</p>
         <p> ${dayString} ${new Date(timeOfGame(nextGame)).toLocaleTimeString()}</p>
       `;
-    }, 1000);
+    };
+    setInterval(updateNextGame, 1000);
+    updateNextGame();
   }
   getContent()
 </script>
