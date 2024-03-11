@@ -19,7 +19,7 @@ li { margin-top: 8px; margin-bottom: 8px; }
 <body>
 
 <section id="next"></section>
-<h1>Next Games</h1>
+
 <section id="content"></section>
 
 <script>
@@ -57,7 +57,7 @@ li { margin-top: 8px; margin-bottom: 8px; }
       <h2>${g['v']['tn']} @ ${g['h']['tn']}</h2>
       <p>${timeOfGame(g)}</p>
     `);
-    document.getElementById('content').innerHTML = content.join('\n');
+    document.getElementById('content').innerHTML = '<h1>Next Games</h1>' + content.join('\n');
 
 
     document.nextGame = futureWarriorsGames[0];
