@@ -115,8 +115,6 @@ li { margin-top: 8px; margin-bottom: 8px; }
   }
 
   async function loadNextGameDetails() {
-    // http://data.nba.net/v2015/{format}/mobile_teams/{leagueSlug}/{year}/scores/gamedetail/{gameId}_gamedetail.{format}
-
     const response = await fetch(`https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/${season}/scores/gamedetail/${document.nextGame['gid']}_gamedetail.json`);
     document.nextGameDetails = await response.json();
   }
