@@ -110,7 +110,8 @@ li { margin-top: 8px; margin-bottom: 8px; }
     document.games = games.filter(g => g['h']['ta'] === 'GSW' || g['v']['ta'] === 'GSW');
     document.futureGames = document.games.filter(g => timeOfGame(g) > new Date() || g['st'] == 2); // 'st' is for status, 2 seems to be 'live'
     document.nextGame = document.futureGames[0];
-    loadNextGameDetails();
+    await loadNextGameDetails();
+    renderNextGame();
     renderFutureGames();
   }
 
