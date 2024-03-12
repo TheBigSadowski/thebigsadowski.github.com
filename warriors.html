@@ -47,6 +47,11 @@ li { margin-top: 8px; margin-bottom: 8px; }
     text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+.inactive-players {
+  font-size: .2em;
+  text-shadow: none;
+}
 </style>
 </head>
 
@@ -57,9 +62,25 @@ li { margin-top: 8px; margin-bottom: 8px; }
 <section id="content"></section>
 
 <script>
+  const season = '2023';
+
+  function formatInactivePlayersForGame(game) {
+    return `<section class="inactive-players">
+      <p>Inactive Players</p>
+      <p>${formatInactivePlayersForTeam(game['g']['vls'])}</p>
+      <p>${formatInactivePlayersForTeam(game['g']['hls'])}</p>
+    </section>`;
+  }
+
+  function formatInactivePlayersForTeam(gameRoster) {
+    return `<strong>${gameRoster['ta']}</strong>: 
+      ${gameRoster['pstsg'] ? gameRoster['pstsg'].filter(p => p['status'] != 'A').map(p => `${p['fn']} ${p['ln']}`).join(', ') : 'not published'}`;
+  }
+
   function timeOfGame(game){
     return new Date(`${game['gdtutc']}T${game['utctm']}Z`);
   }
+
   function timeBetween(date1, date2) {
     const diff = Math.abs(date1 - date2);
     const days = Math.floor(diff / (1000*60*60*24));
@@ -81,60 +102,68 @@ li { margin-top: 8px; margin-bottom: 8px; }
     }
     return results.join(', ');
   }
-  async function getContent() {
-    const response = await fetch("https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2023/league/00_full_schedule.json");
+
+  async function loadGameList() {
+    const response = await fetch(`https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/${season}/league/00_full_schedule.json`);
     const json = await response.json();
     const games = json['lscd'].map(month => month['mscd']['g']).flat().sort((a, b) => timeOfGame(a) - timeOfGame(b));
-    const warriorsGames = games.filter(g => g['h']['ta'] === 'GSW' || g['v']['ta'] === 'GSW');
-    const futureWarriorsGames = warriorsGames.filter(g => timeOfGame(g) > new Date());
-    const content = futureWarriorsGames.map(g => `
+    document.games = games.filter(g => g['h']['ta'] === 'GSW' || g['v']['ta'] === 'GSW');
+    document.futureGames = document.games.filter(g => timeOfGame(g) > new Date() || g['st'] == 2); // 'st' is for status, 2 seems to be 'live'
+    document.nextGame = document.futureGames[0];
+    loadNextGameDetails();
+    renderFutureGames();
+  }
+
+  async function loadNextGameDetails() {
+    // http://data.nba.net/v2015/{format}/mobile_teams/{leagueSlug}/{year}/scores/gamedetail/{gameId}_gamedetail.{format}
+
+    const response = await fetch(`https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/${season}/scores/gamedetail/${document.nextGame['gid']}_gamedetail.json`);
+    document.nextGameDetails = await response.json();
+  }
+
+  function renderFutureGames() {
+    const content = document.futureGames.map(g => `
       <h2>${g['v']['tn']} @ ${g['h']['tn']} (${g['gid']})</h2>
       <p>${timeOfGame(g)}</p>
     `);
     document.getElementById('content').innerHTML = '<h1>Next Games</h1>' + content.join('\n');
-
-    activeGame = warriorsGames.filter(g => g['st'] == 2)[0]; // 'st' is for status
-    // https://cdn.nba.com/static/json/liveData/boxscore/boxscore_0022300921.json
-
-    document.nextGame = activeGame || futureWarriorsGames[0];
-
-    const updateNextGame = function(){
-      const nextGame = document.nextGame;
-      const today = new Date().toLocaleDateString();
-      var tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toLocaleDateString();
-      const gameDate = new Date(timeOfGame(nextGame)).toLocaleDateString();
-      var dayString = '<error>';
-      if (gameDate === today) {
-        dayString = 'Today';
-      } else if (gameDate === tomorrow) {
-        dayString = 'Tomorrow';
-      } else {
-        dayString = new Date(timeOfGame(nextGame)).toLocaleString('en-us', {  weekday: 'long' })
-      }
-      if (nextGame['st'] == 2) {
-        document.getElementById('next').innerHTML = `
-          <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
-          <p class="now">NOW!!</p>
-        `;        
-
-      } else {
-        document.getElementById('next').innerHTML = `
-          <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
-          <p>In ${timeBetween(timeOfGame(nextGame), new Date)}</p>
-          <p> ${dayString} ${new Date(timeOfGame(nextGame)).toLocaleTimeString()}</p>
-        `;        
-      }
-    };
-    setInterval(updateNextGame, 1000);
-    updateNextGame();
-
-    // async function getNextGame() {
-    //   const gameDetails = await fetch(`https://cdn.nba.com/static/json/liveData/boxscore/boxscore_${document.nextGame['gid']}.json`);
-    //   console.log(gameDetails)
-    // };
-    // getNextGame()
   }
-  getContent()
+
+  function renderNextGame() {
+    const nextGame = document.nextGame;
+    const nextGameDetails = document.nextGameDetails;
+    const today = new Date().toLocaleDateString();
+    var tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toLocaleDateString();
+    const gameDate = new Date(timeOfGame(nextGame)).toLocaleDateString();
+    var dayString = '<error>';
+    if (gameDate === today) {
+      dayString = 'Today';
+    } else if (gameDate === tomorrow) {
+      dayString = 'Tomorrow';
+    } else {
+      dayString = new Date(timeOfGame(nextGame)).toLocaleString('en-us', {  weekday: 'long' })
+    }
+
+    var content = `<h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>`;
+    if (nextGame['st'] == 2) {
+      content += '<p class="now">NOW!!</p>';
+    } else {
+      content += `
+        <p>In ${timeBetween(timeOfGame(nextGame), new Date)}</p>
+        <p> ${dayString} ${new Date(timeOfGame(nextGame)).toLocaleTimeString()}</p>`;
+    }
+
+    if (nextGameDetails) {
+      content += formatInactivePlayersForGame(nextGameDetails);
+    }
+
+    document.getElementById('next').innerHTML = content;
+  }
+
+  setInterval(renderNextGame, 1000); // every second
+  setInterval(loadGameList, 60 * 1000); // every minute
+  setInterval(loadNextGameDetails, 10 * 1000); // every 10 seconds
+  loadGameList();
 </script>
 
 <!-- curl https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2023/league/00_full_schedule.json | jq '.lscd[] | .mscd.g[] | select(.h.ta=="GSW" or .v.ta=="GSW") | {date: .gdte, home: {team: .h.ta, score: .h.s}, visitor: {team: .v.ta, score: .v.s}}' -->
