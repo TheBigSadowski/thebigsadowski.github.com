@@ -10,9 +10,46 @@ body { font-family: helvetica, arial, sans-serif; font-size: 0.9em; max-width: 5
     1px -1px 1px #fff,
     -1px -1px 1px #fff; font-size: 5em;
 }
-h2 { margin-top: 30px; }
+h2 { margin-top: 30px; text-align: center; }
 h4 { margin-bottom: 0; }
 li { margin-top: 8px; margin-bottom: 8px; }
+.now { }
+
+
+.now {
+  animation: 2s anim-popoutin ease infinite;
+  text-align: center;
+  margin-bottom: 10em;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+@keyframes anim-popoutin {
+  0% {
+/*    color: black;*/
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+/*    color: red;*/
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+/*    color: black;*/
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+}
 </style>
 </head>
 
@@ -54,13 +91,20 @@ li { margin-top: 8px; margin-bottom: 8px; }
     const warriorsGames = games.filter(g => g['h']['ta'] === 'GSW' || g['v']['ta'] === 'GSW');
     const futureWarriorsGames = warriorsGames.filter(g => timeOfGame(g) > new Date());
     const content = futureWarriorsGames.map(g => `
-      <h2>${g['v']['tn']} @ ${g['h']['tn']}</h2>
+      <h2>${g['v']['tn']} @ ${g['h']['tn']} (${g['gid']})</h2>
       <p>${timeOfGame(g)}</p>
     `);
     document.getElementById('content').innerHTML = '<h1>Next Games</h1>' + content.join('\n');
 
+    warriorsGames.forEach(g => console.log(g['st']));
 
-    document.nextGame = futureWarriorsGames[0];
+
+    activeGame = warriorsGames.filter(g => g['st'] == 2)[0]; // 'st' is for status
+    // https://cdn.nba.com/static/json/liveData/boxscore/boxscore_0022300921.json
+    console.log(activeGame);
+
+    document.nextGame = activeGame || futureWarriorsGames[0];
+    console.log(document.nextGame);
     const updateNextGame = function(){
       const nextGame = document.nextGame;
       const today = new Date().toLocaleDateString();
@@ -74,14 +118,28 @@ li { margin-top: 8px; margin-bottom: 8px; }
       } else {
         dayString = new Date(timeOfGame(nextGame)).toLocaleString('en-us', {  weekday: 'long' })
       }
-      document.getElementById('next').innerHTML = `
-        <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
-        <p>In ${timeBetween(timeOfGame(nextGame), new Date)}</p>
-        <p> ${dayString} ${new Date(timeOfGame(nextGame)).toLocaleTimeString()}</p>
-      `;
+      if (nextGame['st'] == 2) {
+        document.getElementById('next').innerHTML = `
+          <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
+          <p class="now">NOW!!</p>
+        `;        
+
+      } else {
+        document.getElementById('next').innerHTML = `
+          <h2>${nextGame['v']['tn']} @ ${nextGame['h']['tn']}</h2>
+          <p>In ${timeBetween(timeOfGame(nextGame), new Date)}</p>
+          <p> ${dayString} ${new Date(timeOfGame(nextGame)).toLocaleTimeString()}</p>
+        `;        
+      }
     };
     setInterval(updateNextGame, 1000);
     updateNextGame();
+
+    // async function getNextGame() {
+    //   const gameDetails = await fetch(`https://cdn.nba.com/static/json/liveData/boxscore/boxscore_${document.nextGame['gid']}.json`);
+    //   console.log(gameDetails)
+    // };
+    // getNextGame()
   }
   getContent()
 </script>
